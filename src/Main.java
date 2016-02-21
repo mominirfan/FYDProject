@@ -12,7 +12,6 @@ public class Main {
 		r.setVerbose(true);
 		r.connect();
 		r.close();
-		//lasfdlsadfiwoafjoasj
 	}
 
 }
