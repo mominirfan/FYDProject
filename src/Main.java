@@ -12,12 +12,11 @@ public class Main {
 		r.setVerbose(true);
 		r.connect();
 		r.close();
-<<<<<<< HEAD
+
 		//lasfdlsadfiwoafjoasj
 		//dteresa
 // new change here
-=======
->>>>>>> 84812cbebb15cb89385481f72ca659241df36230
+
 	}
 
 }
