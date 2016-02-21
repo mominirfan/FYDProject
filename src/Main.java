@@ -1,3 +1,5 @@
+import rxtxrobot.*;
+
 
 public class Main {
 
@@ -5,6 +7,11 @@ public class Main {
 		// TODO Auto-generated method stub
 
 		//will it track this cahmge
+		//hi 
+		RXTXRobot r = new ArduinoUno(); 
+		r.setVerbose(true);
+		r.connect();
+		r.close();
 	}
 
 }
