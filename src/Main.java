@@ -12,6 +12,7 @@ public class Main {
 		RXTXRobot r = new ArduinoUno(); 
 		r.setVerbose(true);
 		r.connect();
+		//newest test
 		r.close();
 
 		//lasfdlsadfiwoafjoasj
