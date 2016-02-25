@@ -10,6 +10,19 @@ public class Main {
 		r = new ArduinoUno(); 
 		r.setPort("COM3");
 		r.connect();
+<<<<<<< HEAD
+=======
+		//newest test
+		//newest change
+		r.close();
+
+		//lasfdlsadfiwoafjoasj
+		//dteresa
+
+// new change here
+		//catcatcat
+		//yo
+>>>>>>> origin/master
 
 	    //Get the average thermistor reading
 	    int thermistorReading = getThermistorReading();
