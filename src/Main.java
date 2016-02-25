@@ -5,6 +5,7 @@ public class Main {
 	private static RXTXRobot r; 
 	
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		// TODO Auto-generated method stub
 
 		r = new ArduinoUno(); 
@@ -17,6 +18,14 @@ public class Main {
 	    System.out.println("The probe read the value: " + thermistorReading);
 	    System.out.println("In volts: " + (thermistorReading * (5.0/1023.0)));
 	    r.close();
+=======
+		
+		RXTXRobot r = new ArduinoUno(); 
+		r.setVerbose(true);
+		r.connect();
+		r.close();
+
+>>>>>>> 04b6769a680bdffcccb59acf05241dae3cc3c9a9
 	}
 	
 	//This function reads the voltage coming into analog pin 0 ten times
